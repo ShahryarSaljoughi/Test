@@ -20,8 +20,7 @@ namespace ValueTypeVsReferenceType
 
         void VisitPage (WebPage page)
         {
-            // page = new WebPage() { Url=page.Url, Visit=page.Visit + 1};
-            page.Visit++;
+            page.Visit+=10;
         }
     }
 }
